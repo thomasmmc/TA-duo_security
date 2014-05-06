@@ -1,5 +1,5 @@
-duo_security_logs
-=================
+duo_security_logs_for_splunk_app
+================================
 
 Duo Security Splunk Logger
 
