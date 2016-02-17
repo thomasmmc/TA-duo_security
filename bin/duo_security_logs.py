@@ -151,6 +151,8 @@ class AuthenticationLog(BaseLog):
                 'ip="%(ip)s", '
                 'integration="%(integration)s"'
                 'newenrollment="%(new_enrollment)s"'
+                'reason="%(reason)s"'
+                'device="%(device)s"'
             )
 
             print fmtstr % event
