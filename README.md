@@ -1,14 +1,21 @@
-duo_security_logs_for_splunk_app
+duo_securityTA
 ================================
-
-Duo Security Splunk Logger
 
 This Splunk App is designed to consume duo security logs as a T/A and input them into splunk.
 
 
- ! you must have an API key from DUO security which requires an enterprise subscription account !
+ You must setup an [Admin API Application](https://duo.com/docs/adminapi) from Duo security to get the API keys needed for this setup.  This integration currently requires an Duo enterprise or platform subscription account.
 
-configure your settings and API key in splunk_conf/duo.conf
+Configure your settings and API key in splunk_conf/duo.conf
 
-enjoy!
+```
+[duo]
+; admin api integration key
+ikey = <key value>
 
+; admin api secret key
+skey = <key value>
+
+; API hostname
+host = <api-1234567.duosecurity.com>
+```
