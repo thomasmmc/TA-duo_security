@@ -1,7 +1,7 @@
-duo_securityTA
+Splunk Technology Add-on for Duo Security (TA-duo_security)
 ================================
 
-This Splunk App is designed to consume duo security logs as a T/A and input them into splunk.
+This is a Splunk Technology Add-on App designed to consume duo security logs as a scripted input using the Duo Python API Client and input them into splunk.
 
 
  You must setup an [Admin API Application](https://duo.com/docs/adminapi) from Duo security to get the API keys needed for this setup.  This integration currently requires an Duo enterprise or platform subscription account.
